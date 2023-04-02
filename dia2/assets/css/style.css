@@ -157,7 +157,45 @@ main .coluna section ul li strong{
 main .coluna section ul li p{}
 
 
-/* EXTRAS */
-
-
 /* @MEDIA */
+
+/* Estilização da lista de redes sociais */
+.redes-sociais {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilização dos itens da lista */
+  .redes-sociais li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Estilização dos links */
+  .redes-sociais li a {
+    text-decoration: none;
+    color: #333;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+    /* Estilização das imagens */
+    .redes-sociais li img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    /* Estilização dos títulos */
+    .redes-sociais li p {
+        font-size: 12px;
+        text-align: left;
+        /* margin: 0; */
+    }
+
